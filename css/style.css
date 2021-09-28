@@ -387,8 +387,15 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+
+.project-title {
+    margin-top: 3rem;
+    
+}
+
 .portfolio__item {
     overflow: hidden;
+    padding: 2rem 0;
 }
 
 .portfolio__img {
@@ -404,7 +411,7 @@ header {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
+    transform: scale(1.07);
     opacity: .75;
 }
 
