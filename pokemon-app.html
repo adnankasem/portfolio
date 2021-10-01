@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React + GraphQL Pokemon App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/ak-logo.png" alt=""></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            React + <strong>GraphQL</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Pokemon App</p>
+        <img src='./img/pokemon-project1.png' alt="Pokemon App Image" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>This Pokemon app retrieves data from the Pokemon API using GraphQL and
+            displays them in a two column grid.
+            For this simple app, I chose to retrieve and render the first 8 Pokemon, but we can
+            choose which Pokemon by passing along some parameters such as name, id, or even based
+            on minimum HP. The ability to pick and choose what data you would like to fetch rather
+            than the entire database is one of the core features of GraphQL. I enjoyed working
+            with it and look forward to using it again.
+        </p>
+        <!-- <img src="./img/services-bg.jpg" alt="" /> -->
+        <div class="btn-wrapper">
+            <a href="https://pokemon-graphql.netlify.app/" class="btn item-btn">See Demo</a>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:adnankasem2017@gmail.com" class="footer-link">adnankasem2017@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/adnankasem">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/adnan-kasem-5a317612a/">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

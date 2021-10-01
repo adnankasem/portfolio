@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adnan Kasem Portfolio Website</title>
+    <title>React + OpeWeather Api App</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
@@ -38,46 +38,39 @@
 
     <section class="intro">
         <h1 class="section__title section__title--intro">
-            The title <strong>of my project</strong>
+            React + <strong>OPW</strong>
         </h1>
-        <p class="section__subtitle section__subtitle--intro">Project Subtitle</p>
-        <img src='./img/portfolio-01.jpg' alt="project 1" class="intro__img">
+        <p class="section__subtitle section__subtitle--intro">Weather App</p>
+        <img src='./img/weather-project3.png' alt="Pokemon App Image" class="intro__img">
     </section>
 
     <div class="portfolio-item-individual">
-        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi
-            sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-        <img src="./img/services-bg.jpg" alt="" />
-        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi
-            sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
-        <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi
-            sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+        <p> This weather app is created in React and fetches the OpenWeather API. I decided to
+            use Async/Await functions rather than a library such as Axios. The user input is used to
+            set state and is then passed on to the fetch url dynamically once the user has pressed 'Enter'. Once the
+            data object is returned,
+            the name of the city, weather icon, and temperature are rendered below
+            the form.
+        </p>
+        <!-- <img src="./img/services-bg.jpg" alt="" /> -->
+        <div class="btn-wrapper">
+            <a href="https://my-weather-opw-app.netlify.app/" class="btn item-btn">See Demo</a>
+        </div>
     </div>
 
 
     <!-- Footer -->
     <footer class="footer">
-        <!-- replace with your own email address -->
-        <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
+        <a href="mailto:adnankasem2017@gmail.com" class="footer-link">adnankasem2017@gmail.com</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a class="social-list__link" href="https://codepen.io">
-                    <i class="fab fa-codepen"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="http://dribbble.com">
-                    <i class="fab fa-dribbble"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://twitter.com">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com">
+                <a class="social-list__link" href="https://github.com/adnankasem">
                     <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/adnan-kasem-5a317612a/">
+                    <i class="fab fa-linkedin"></i>
                 </a>
             </li>
         </ul>
